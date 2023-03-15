@@ -1,0 +1,33 @@
+.custom-highlight {
+  background-color: rgba(255, 255, 0, 0.5);
+  padding: 2px;
+  border-radius: 4px;
+}
+
+.annotation-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border: 1px solid #ccc;
+  padding: 8px;
+  margin-bottom: 8px;
+}
+
+.annotation-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.annotation-actions {
+  display: flex;
+  gap: 4px;
+}
+
+.annotation-text {
+  font-weight: bold;
+}
+
+.annotation-url {
+  color: #777;
+  font-size: 12px;
+}
